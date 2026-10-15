@@ -1,0 +1,23 @@
+{
+  "name": "LibreTV 数据源订阅",
+  "version": 2,
+  "sources": [
+    { "name": "量子资源", "url": "http://cj.lziapi.com/api.php/provide/vod/" },
+    { "name": "非凡资源", "url": "http://cj.ffzyapi.com/api.php/provide/vod/" },
+    { "name": "暴风资源", "url": "https://bfzyapi.com/api.php/provide/vod/" },
+    { "name": "光速资源", "url": "https://api.guangsuapi.com/api.php/provide/vod/" },
+    { "name": "极速资源", "url": "https://jszyapi.com/api.php/provide/vod/" },
+    { "name": "无尽资源", "url": "https://api.wujinapi.com/api.php/provide/vod/" },
+    { "name": "索尼资源", "url": "https://suoniapi.com/api.php/provide/vod/" },
+    { "name": "豪华资源", "url": "https://hhzyapi.com/api.php/provide/vod/" },
+    { "name": "360资源", "url": "https://360zy.com/api.php/provide/vod/" },
+    { "name": "电影天堂资源", "url": "http://caiji.dyttzyapi.com/api.php/provide/vod/" },
+    { "name": "快车资源", "url": "https://caiji.kczyapi.com/api.php/provide/vod/" },
+    { "name": "魔都资源", "url": "https://caiji.moduapi.cc/api.php/provide/vod/" }
+  ],
+  "liveSources": [
+    { "name": "中文频道(iptv-org)", "url": "https://iptv-org.github.io/iptv/languages/zho.m3u" },
+    { "name": "国内频道(范明明IPv6聚合)", "url": "https://m3u.ibert.me/fmml_ipv6.m3u" },
+    { "name": "全球频道(iptv-org)", "url": "https://iptv-org.github.io/iptv/index.m3u" }
+  ]
+}
